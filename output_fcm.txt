@@ -1,0 +1,4331 @@
+
+===== DATA YANG DIGUNAKAN (10 DATA) =====
+ [[10  5  2]
+ [12  7  3]
+ [ 9  6  2]
+ [11  5  4]
+ [26 12  3]
+ [15  8  2]
+ [30 10  5]
+ [18  9  3]
+ [25 14  4]
+ [20 11  6]]
+
+
+====================== ITERASI 1 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [18.23584237  9.53472641  3.52705825]
+  Cluster 2: [17.31007617  8.22022611  3.29932751]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 9.5250,  ke C2 = 8.0929
+  Data 2: jarak ke C1 = 6.7519,  ke C2 = 5.4567
+  Data 3: jarak ke C1 = 10.0063,  ke C2 = 8.6991
+  Data 4: jarak ke C1 = 8.5525,  ke C2 = 7.1188
+  Data 5: jarak ke C1 = 8.1632,  ke C2 = 9.4811
+  Data 6: jarak ke C1 = 3.8933,  ke C2 = 2.6595
+  Data 7: jarak ke C1 = 11.8651,  ke C2 = 12.9265
+  Data 8: jarak ke C1 = 0.7870,  ke C2 = 1.0833
+  Data 9: jarak ke C1 = 8.1189,  ke C2 = 9.6453
+  Data 10: jarak ke C1 = 3.3726,  ke C2 = 4.7177
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.4193,  U2=0.5807
+  Data 2: U1=0.3951,  U2=0.6049
+  Data 3: U1=0.4305,  U2=0.5695
+  Data 4: U1=0.4093,  U2=0.5907
+  Data 5: U1=0.5743,  U2=0.4257
+  Data 6: U1=0.3182,  U2=0.6818
+  Data 7: U1=0.5427,  U2=0.4573
+  Data 8: U1=0.6546,  U2=0.3454
+  Data 9: U1=0.5853,  U2=0.4147
+  Data 10: U1=0.6618,  U2=0.3382
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 1
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 2 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [19.51202749  9.58425336  3.74478196]
+  Cluster 2: [15.62694833  7.8347501   3.0590526 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 10.7023,  ke C2 = 6.3890
+  Data 2: jarak ke C1 = 7.9789,  ke C2 = 3.7222
+  Data 3: jarak ke C1 = 11.2425,  ke C2 = 6.9573
+  Data 4: jarak ke C1 = 9.6714,  ke C2 = 5.5073
+  Data 5: jarak ke C1 = 6.9631,  ke C2 = 11.1782
+  Data 6: jarak ke C1 = 5.0904,  ke C2 = 1.2418
+  Data 7: jarak ke C1 = 10.5710,  ke C2 = 14.6642
+  Data 8: jarak ke C1 = 1.7839,  ke C2 = 2.6444
+  Data 9: jarak ke C1 = 7.0485,  ke C2 = 11.2583
+  Data 10: jarak ke C1 = 2.7071,  ke C2 = 6.1475
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.2627,  U2=0.7373
+  Data 2: U1=0.1787,  U2=0.8213
+  Data 3: U1=0.2769,  U2=0.7231
+  Data 4: U1=0.2449,  U2=0.7551
+  Data 5: U1=0.7205,  U2=0.2795
+  Data 6: U1=0.0562,  U2=0.9438
+  Data 7: U1=0.6580,  U2=0.3420
+  Data 8: U1=0.6872,  U2=0.3128
+  Data 9: U1=0.7184,  U2=0.2816
+  Data 10: U1=0.8376,  U2=0.1624
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 1
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 3 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [22.33649897 10.79017944  4.17866522]
+  Cluster 2: [13.24267004  6.92728219  2.72373796]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 13.8008,  ke C2 = 3.8410
+  Data 2: jarak ke C1 = 11.0724,  ke C2 = 1.2751
+  Data 3: jarak ke C1 = 14.3372,  ke C2 = 4.4027
+  Data 4: jarak ke C1 = 12.7308,  ke C2 = 3.2207
+  Data 5: jarak ke C1 = 4.0341,  ke C2 = 13.7317
+  Data 6: jarak ke C1 = 8.1459,  ke C2 = 2.1824
+  Data 7: jarak ke C1 = 7.7478,  ke C2 = 17.1881
+  Data 8: jarak ke C1 = 4.8373,  ke C2 = 5.1966
+  Data 9: jarak ke C1 = 4.1748,  ke C2 = 13.7799
+  Data 10: jarak ke C1 = 2.9699,  ke C2 = 8.5430
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0719,  U2=0.9281
+  Data 2: U1=0.0131,  U2=0.9869
+  Data 3: U1=0.0862,  U2=0.9138
+  Data 4: U1=0.0602,  U2=0.9398
+  Data 5: U1=0.9205,  U2=0.0795
+  Data 6: U1=0.0670,  U2=0.9330
+  Data 7: U1=0.8311,  U2=0.1689
+  Data 8: U1=0.5358,  U2=0.4642
+  Data 9: U1=0.9159,  U2=0.0841
+  Data 10: U1=0.8922,  U2=0.1078
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 1
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 4 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [24.4306227  11.57321167  4.32000394]
+  Cluster 2: [11.9105136   6.4013227   2.66235089]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.0260,  ke C2 = 2.4602
+  Data 2: jarak ke C1 = 13.3108,  ke C2 = 0.6931
+  Data 3: jarak ke C1 = 16.5695,  ke C2 = 3.0118
+  Data 4: jarak ke C1 = 14.9563,  ke C2 = 2.1406
+  Data 5: jarak ke C1 = 2.0946,  ke C2 = 15.1649
+  Data 6: jarak ke C1 = 10.3483,  ke C2 = 3.5411
+  Data 7: jarak ke C1 = 5.8271,  ke C2 = 18.5915
+  Data 8: jarak ke C1 = 7.0510,  ke C2 = 6.6294
+  Data 9: jarak ke C1 = 2.5131,  ke C2 = 15.1942
+  Data 10: jarak ke C1 = 4.7730,  ke C2 = 9.8857
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0230,  U2=0.9770
+  Data 2: U1=0.0027,  U2=0.9973
+  Data 3: U1=0.0320,  U2=0.9680
+  Data 4: U1=0.0201,  U2=0.9799
+  Data 5: U1=0.9813,  U2=0.0187
+  Data 6: U1=0.1048,  U2=0.8952
+  Data 7: U1=0.9105,  U2=0.0895
+  Data 8: U1=0.4692,  U2=0.5308
+  Data 9: U1=0.9734,  U2=0.0266
+  Data 10: U1=0.8110,  U2=0.1890
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 5 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.03832139 11.68649771  4.25790378]
+  Cluster 2: [11.77044042  6.35105115  2.67659537]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.6120,  ke C2 = 2.3276
+  Data 2: jarak ke C1 = 13.9120,  ke C2 = 0.7605
+  Data 3: jarak ke C1 = 17.1657,  ke C2 = 2.8734
+  Data 4: jarak ke C1 = 15.5515,  ke C2 = 2.0421
+  Data 5: jarak ke C1 = 1.6141,  ke C2 = 15.3132
+  Data 6: jarak ke C1 = 10.9296,  ke C2 = 3.6887
+  Data 7: jarak ke C1 = 5.2928,  ke C2 = 18.7358
+  Data 8: jarak ke C1 = 7.6379,  ke C2 = 6.7771
+  Data 9: jarak ke C1 = 2.3281,  ke C2 = 15.3388
+  Data 10: jarak ke C1 = 5.3750,  ke C2 = 10.0192
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0193,  U2=0.9807
+  Data 2: U1=0.0030,  U2=0.9970
+  Data 3: U1=0.0273,  U2=0.9727
+  Data 4: U1=0.0170,  U2=0.9830
+  Data 5: U1=0.9890,  U2=0.0110
+  Data 6: U1=0.1023,  U2=0.8977
+  Data 7: U1=0.9261,  U2=0.0739
+  Data 8: U1=0.4405,  U2=0.5595
+  Data 9: U1=0.9775,  U2=0.0225
+  Data 10: U1=0.7765,  U2=0.2235
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 6 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.21307931 11.71101571  4.24117741]
+  Cluster 2: [11.81628973  6.37536522  2.68546345]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.7779,  ke C2 = 2.3792
+  Data 2: jarak ke C1 = 14.0826,  ke C2 = 0.7231
+  Data 3: jarak ke C1 = 17.3350,  ke C2 = 2.9227
+  Data 4: jarak ke C1 = 15.7197,  ke C2 = 2.0703
+  Data 5: jarak ke C1 = 1.4978,  ke C2 = 15.2615
+  Data 6: jarak ke C1 = 11.0951,  ke C2 = 3.6394
+  Data 7: jarak ke C1 = 5.1398,  ke C2 = 18.6854
+  Data 8: jarak ke C1 = 7.8050,  ke C2 = 6.7250
+  Data 9: jarak ke C1 = 2.3115,  ke C2 = 15.2864
+  Data 10: jarak ke C1 = 5.5475,  ke C2 = 9.9673
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0197,  U2=0.9803
+  Data 2: U1=0.0026,  U2=0.9974
+  Data 3: U1=0.0276,  U2=0.9724
+  Data 4: U1=0.0170,  U2=0.9830
+  Data 5: U1=0.9905,  U2=0.0095
+  Data 6: U1=0.0971,  U2=0.9029
+  Data 7: U1=0.9297,  U2=0.0703
+  Data 8: U1=0.4261,  U2=0.5739
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7635,  U2=0.2365
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 7 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.2797115  11.72273668  4.23664862]
+  Cluster 2: [11.85049981  6.39225529  2.68912462]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8424,  ke C2 = 2.4161
+  Data 2: jarak ke C1 = 14.1486,  ke C2 = 0.6988
+  Data 3: jarak ke C1 = 17.4006,  ke C2 = 2.9587
+  Data 4: jarak ke C1 = 15.7848,  ke C2 = 2.0929
+  Data 5: jarak ke C1 = 1.4577,  ke C2 = 15.2234
+  Data 6: jarak ke C1 = 11.1595,  ke C2 = 3.6027
+  Data 7: jarak ke C1 = 5.0825,  ke C2 = 18.6483
+  Data 8: jarak ke C1 = 7.8700,  ke C2 = 6.6868
+  Data 9: jarak ke C1 = 2.3065,  ke C2 = 15.2481
+  Data 10: jarak ke C1 = 5.6131,  ke C2 = 9.9301
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0202,  U2=0.9798
+  Data 2: U1=0.0024,  U2=0.9976
+  Data 3: U1=0.0281,  U2=0.9719
+  Data 4: U1=0.0173,  U2=0.9827
+  Data 5: U1=0.9909,  U2=0.0091
+  Data 6: U1=0.0944,  U2=0.9056
+  Data 7: U1=0.9309,  U2=0.0691
+  Data 8: U1=0.4193,  U2=0.5807
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7579,  U2=0.2421
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 8 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.30863943 11.72831879  4.23487952]
+  Cluster 2: [11.86773181  6.40067103  2.69076029]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8707,  ke C2 = 2.4346
+  Data 2: jarak ke C1 = 14.1775,  ke C2 = 0.6873
+  Data 3: jarak ke C1 = 17.4293,  ke C2 = 2.9768
+  Data 4: jarak ke C1 = 15.8134,  ke C2 = 2.1045
+  Data 5: jarak ke C1 = 1.4411,  ke C2 = 15.2042
+  Data 6: jarak ke C1 = 11.1876,  ke C2 = 3.5841
+  Data 7: jarak ke C1 = 5.0578,  ke C2 = 18.6297
+  Data 8: jarak ke C1 = 7.8984,  ke C2 = 6.6676
+  Data 9: jarak ke C1 = 2.3046,  ke C2 = 15.2289
+  Data 10: jarak ke C1 = 5.6416,  ke C2 = 9.9115
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0204,  U2=0.9796
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0283,  U2=0.9717
+  Data 4: U1=0.0174,  U2=0.9826
+  Data 5: U1=0.9911,  U2=0.0089
+  Data 6: U1=0.0931,  U2=0.9069
+  Data 7: U1=0.9314,  U2=0.0686
+  Data 8: U1=0.4161,  U2=0.5839
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7553,  U2=0.2447
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 9 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.32169188 11.73089326  4.23408996]
+  Cluster 2: [11.87582493  6.40461363  2.69151391]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8834,  ke C2 = 2.4433
+  Data 2: jarak ke C1 = 14.1906,  ke C2 = 0.6820
+  Data 3: jarak ke C1 = 17.4422,  ke C2 = 2.9853
+  Data 4: jarak ke C1 = 15.8263,  ke C2 = 2.1100
+  Data 5: jarak ke C1 = 1.4337,  ke C2 = 15.1953
+  Data 6: jarak ke C1 = 11.2004,  ke C2 = 3.5755
+  Data 7: jarak ke C1 = 5.0467,  ke C2 = 18.6210
+  Data 8: jarak ke C1 = 7.9113,  ke C2 = 6.6586
+  Data 9: jarak ke C1 = 2.3037,  ke C2 = 15.2199
+  Data 10: jarak ke C1 = 5.6545,  ke C2 = 9.9028
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0205,  U2=0.9795
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0285,  U2=0.9715
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0925,  U2=0.9075
+  Data 7: U1=0.9316,  U2=0.0684
+  Data 8: U1=0.4147,  U2=0.5853
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7541,  U2=0.2459
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 10 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.32764337 11.73207129  4.23372844]
+  Cluster 2: [11.87956002  6.40643204  2.69186166]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8893,  ke C2 = 2.4473
+  Data 2: jarak ke C1 = 14.1965,  ke C2 = 0.6795
+  Data 3: jarak ke C1 = 17.4482,  ke C2 = 2.9893
+  Data 4: jarak ke C1 = 15.8321,  ke C2 = 2.1126
+  Data 5: jarak ke C1 = 1.4304,  ke C2 = 15.1911
+  Data 6: jarak ke C1 = 11.2062,  ke C2 = 3.5715
+  Data 7: jarak ke C1 = 5.0416,  ke C2 = 18.6170
+  Data 8: jarak ke C1 = 7.9171,  ke C2 = 6.6544
+  Data 9: jarak ke C1 = 2.3034,  ke C2 = 15.2158
+  Data 10: jarak ke C1 = 5.6603,  ke C2 = 9.8988
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0285,  U2=0.9715
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0922,  U2=0.9078
+  Data 7: U1=0.9317,  U2=0.0683
+  Data 8: U1=0.4140,  U2=0.5860
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7536,  U2=0.2464
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 11 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33036504 11.73260996  4.23356247]
+  Cluster 2: [11.88127511  6.40726688  2.69202163]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8919,  ke C2 = 2.4492
+  Data 2: jarak ke C1 = 14.1992,  ke C2 = 0.6784
+  Data 3: jarak ke C1 = 17.4509,  ke C2 = 2.9911
+  Data 4: jarak ke C1 = 15.8348,  ke C2 = 2.1137
+  Data 5: jarak ke C1 = 1.4288,  ke C2 = 15.1892
+  Data 6: jarak ke C1 = 11.2088,  ke C2 = 3.5696
+  Data 7: jarak ke C1 = 5.0393,  ke C2 = 18.6151
+  Data 8: jarak ke C1 = 7.9198,  ke C2 = 6.6525
+  Data 9: jarak ke C1 = 2.3032,  ke C2 = 15.2139
+  Data 10: jarak ke C1 = 5.6630,  ke C2 = 9.8969
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0285,  U2=0.9715
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0921,  U2=0.9079
+  Data 7: U1=0.9317,  U2=0.0683
+  Data 8: U1=0.4137,  U2=0.5863
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7533,  U2=0.2467
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 12 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.3316108  11.73285641  4.23348634]
+  Cluster 2: [11.88206133  6.40764956  2.69209507]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8931,  ke C2 = 2.4500
+  Data 2: jarak ke C1 = 14.2005,  ke C2 = 0.6779
+  Data 3: jarak ke C1 = 17.4521,  ke C2 = 2.9919
+  Data 4: jarak ke C1 = 15.8361,  ke C2 = 2.1143
+  Data 5: jarak ke C1 = 1.4281,  ke C2 = 15.1883
+  Data 6: jarak ke C1 = 11.2100,  ke C2 = 3.5688
+  Data 7: jarak ke C1 = 5.0383,  ke C2 = 18.6143
+  Data 8: jarak ke C1 = 7.9210,  ke C2 = 6.6516
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2130
+  Data 10: jarak ke C1 = 5.6642,  ke C2 = 9.8961
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9317,  U2=0.0683
+  Data 8: U1=0.4135,  U2=0.5865
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7532,  U2=0.2468
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 13 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33218118 11.73296921  4.23345145]
+  Cluster 2: [11.88242153  6.40782488  2.69212874]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8937,  ke C2 = 2.4504
+  Data 2: jarak ke C1 = 14.2010,  ke C2 = 0.6777
+  Data 3: jarak ke C1 = 17.4527,  ke C2 = 2.9923
+  Data 4: jarak ke C1 = 15.8366,  ke C2 = 2.1145
+  Data 5: jarak ke C1 = 1.4278,  ke C2 = 15.1879
+  Data 6: jarak ke C1 = 11.2106,  ke C2 = 3.5684
+  Data 7: jarak ke C1 = 5.0378,  ke C2 = 18.6139
+  Data 8: jarak ke C1 = 7.9216,  ke C2 = 6.6512
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2126
+  Data 10: jarak ke C1 = 5.6648,  ke C2 = 9.8957
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9317,  U2=0.0683
+  Data 8: U1=0.4135,  U2=0.5865
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7532,  U2=0.2468
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 14 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33244236 11.73302085  4.23343546]
+  Cluster 2: [11.88258651  6.40790518  2.69214416]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8940,  ke C2 = 2.4506
+  Data 2: jarak ke C1 = 14.2013,  ke C2 = 0.6776
+  Data 3: jarak ke C1 = 17.4529,  ke C2 = 2.9924
+  Data 4: jarak ke C1 = 15.8369,  ke C2 = 2.1146
+  Data 5: jarak ke C1 = 1.4277,  ke C2 = 15.1877
+  Data 6: jarak ke C1 = 11.2108,  ke C2 = 3.5682
+  Data 7: jarak ke C1 = 5.0376,  ke C2 = 18.6137
+  Data 8: jarak ke C1 = 7.9218,  ke C2 = 6.6511
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2124
+  Data 10: jarak ke C1 = 5.6651,  ke C2 = 9.8955
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4135,  U2=0.5865
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7532,  U2=0.2468
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 15 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33256196 11.7330445   4.23342814]
+  Cluster 2: [11.88266207  6.40794196  2.69215123]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8941,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2014,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4530,  ke C2 = 2.9925
+  Data 4: jarak ke C1 = 15.8370,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1877
+  Data 6: jarak ke C1 = 11.2110,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0375,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9220,  ke C2 = 6.6510
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2123
+  Data 10: jarak ke C1 = 5.6652,  ke C2 = 9.8955
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 16 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33261673 11.73305533  4.23342479]
+  Cluster 2: [11.88269667  6.4079588   2.69215446]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8941,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2110,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9220,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2123
+  Data 10: jarak ke C1 = 5.6652,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 17 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33264181 11.73306029  4.23342325]
+  Cluster 2: [11.88271252  6.40796651  2.69215595]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8941,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2110,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9220,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2123
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 18 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.3326533  11.73306256  4.23342255]
+  Cluster 2: [11.88271978  6.40797004  2.69215662]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9220,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 19 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33265856 11.7330636   4.23342223]
+  Cluster 2: [11.8827231   6.40797166  2.69215693]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9220,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 20 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33266097 11.73306407  4.23342208]
+  Cluster 2: [11.88272462  6.4079724   2.69215708]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 21 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33266207 11.73306429  4.23342201]
+  Cluster 2: [11.88272532  6.40797274  2.69215714]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 22 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33266257 11.73306439  4.23342198]
+  Cluster 2: [11.88272564  6.4079729   2.69215717]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 23 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33266281 11.73306444  4.23342197]
+  Cluster 2: [11.88272578  6.40797297  2.69215719]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 24 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33266291 11.73306446  4.23342196]
+  Cluster 2: [11.88272585  6.407973    2.69215719]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 25 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33266296 11.73306447  4.23342196]
+  Cluster 2: [11.88272588  6.40797301  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 26 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33266298 11.73306447  4.23342195]
+  Cluster 2: [11.88272589  6.40797302  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 27 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.33266299 11.73306447  4.23342195]
+  Cluster 2: [11.8827259   6.40797302  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 28 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.8827259   6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 29 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 30 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 31 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 32 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 33 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 34 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 35 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 36 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 37 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 38 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 39 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 40 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 41 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 42 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 43 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 44 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 45 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 46 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 47 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 48 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 49 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 50 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 51 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 52 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 53 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 54 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 55 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 56 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 57 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 58 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 59 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 60 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 61 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 62 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 63 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 64 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 65 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 66 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 67 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 68 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 69 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 70 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 71 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 72 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 73 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 74 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 75 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 76 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 77 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 78 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 79 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 80 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 81 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 82 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 83 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 84 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 85 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 86 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 87 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 88 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 89 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 90 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 91 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 92 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 93 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 94 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 95 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 96 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 97 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 98 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 99 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== ITERASI 100 ======================
+
+>>> Pusat Cluster (centroid):
+  Cluster 1: [25.332663   11.73306447  4.23342195]
+  Cluster 2: [11.88272591  6.40797303  2.6921572 ]
+
+>>> Jarak Setiap Data ke Cluster:
+  Data 1: jarak ke C1 = 16.8942,  ke C2 = 2.4507
+  Data 2: jarak ke C1 = 14.2015,  ke C2 = 0.6775
+  Data 3: jarak ke C1 = 17.4531,  ke C2 = 2.9926
+  Data 4: jarak ke C1 = 15.8371,  ke C2 = 2.1147
+  Data 5: jarak ke C1 = 1.4276,  ke C2 = 15.1876
+  Data 6: jarak ke C1 = 11.2111,  ke C2 = 3.5681
+  Data 7: jarak ke C1 = 5.0374,  ke C2 = 18.6136
+  Data 8: jarak ke C1 = 7.9221,  ke C2 = 6.6509
+  Data 9: jarak ke C1 = 2.3031,  ke C2 = 15.2122
+  Data 10: jarak ke C1 = 5.6653,  ke C2 = 9.8954
+
+>>> Matriks Keanggotaan U (updated):
+  Data 1: U1=0.0206,  U2=0.9794
+  Data 2: U1=0.0023,  U2=0.9977
+  Data 3: U1=0.0286,  U2=0.9714
+  Data 4: U1=0.0175,  U2=0.9825
+  Data 5: U1=0.9912,  U2=0.0088
+  Data 6: U1=0.0920,  U2=0.9080
+  Data 7: U1=0.9318,  U2=0.0682
+  Data 8: U1=0.4134,  U2=0.5866
+  Data 9: U1=0.9776,  U2=0.0224
+  Data 10: U1=0.7531,  U2=0.2469
+
+>>> Cluster data pada iterasi ini:
+  Data 1 masuk cluster 2
+  Data 2 masuk cluster 2
+  Data 3 masuk cluster 2
+  Data 4 masuk cluster 2
+  Data 5 masuk cluster 1
+  Data 6 masuk cluster 2
+  Data 7 masuk cluster 1
+  Data 8 masuk cluster 2
+  Data 9 masuk cluster 1
+  Data 10 masuk cluster 1
+
+
+====================== HASIL AKHIR ======================
+
+Pusat Cluster Final:
+[[25.332663   11.73306447  4.23342195]
+ [11.88272591  6.40797303  2.6921572 ]]
+
+Cluster Final Setiap Data:
+  Data 1 → Cluster 2
+  Data 2 → Cluster 2
+  Data 3 → Cluster 2
+  Data 4 → Cluster 2
+  Data 5 → Cluster 1
+  Data 6 → Cluster 2
+  Data 7 → Cluster 1
+  Data 8 → Cluster 2
+  Data 9 → Cluster 1
+  Data 10 → Cluster 1
